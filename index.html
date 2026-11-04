@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>好事发生 · 组织委员抽签</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<header><div class="brand"><b>✳</b> 好事发生</div><small>● 把期待，交给一点随机</small></header>
+<main><div class="eyebrow">A LITTLE LUCK, A NEW BEGINNING</div><h1>下一位组织委员，<em>会是谁？</em></h1><p class="subtitle">一次公平的小抽签，一份新的小担当。让我们一起揭晓吧。</p>
+<div class="layout"><section class="panel"><div class="panel-top"><strong>组织委员 · 幸运抽签</strong><span class="badge" id="status">等待开启</span></div>
+<div class="stage" id="stage"><div class="orbit"></div><i class="spark">✧</i><div class="envelope" aria-hidden="true"><div class="ticket">✦</div><div class="front"></div></div><div class="stage-label" id="label">今日的幸运担当</div><div class="name" id="name">虚位以待</div><p id="description" aria-live="polite">9 位候选人，等待一个闪亮的名字</p></div>
+<button id="draw" class="primary" type="button">✦ 开启幸运抽签</button><p class="hint">每人机会均等 · 每次仅抽取 1 位</p><div id="time" class="time"></div><div class="rules">◇ 罗娜（组长）、张晓勤（学习委员）不参与抽签。结果保存在当前浏览器，刷新不会重新抽取。</div></section>
+<aside class="panel roster"><div class="panel-top"><strong>候选名单</strong><small>9 人参与</small></div><p class="roster-note">每一位，都有 1/9 的机会</p><div id="candidates" class="candidates"></div><div class="assigned"><p>已有分工 · 不参与抽签</p><div><span class="small-avatar">罗</span>罗娜 <span class="role">组长</span></div><div><span class="small-avatar">张</span>张晓勤 <span class="role">学习委员</span></div></div></aside></div><footer>— &nbsp; 公平是起点，参与是心意 &nbsp; —</footer></main>
+<dialog id="dialog" aria-labelledby="dialog-title"><h2 id="dialog-title">确认重新抽签？</h2><p>当前结果将被替换，9 位候选人会重新参与。正式抽签时，请先征得大家同意。</p><div class="actions"><button id="cancel" type="button">保留结果</button><button class="primary" id="confirm" type="button">确认重抽</button></div></dialog>
+<script src="app.js"></script></body></html>
